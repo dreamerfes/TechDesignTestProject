@@ -6,9 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/gloomy_world_scene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
-    path: Assets/Scenes/happy_world_scene.unity
+    path: Assets/Scenes/scene_1_happy_world_scene.unity
     guid: 58529568ac15e436491548a52ba4e3ab
-  m_configObjects: {}
+  - enabled: 1
+    path: Assets/Scenes/scene_2_gloomy_world_scene.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: 5d00d5c51fff4456781839f1d8e26282, type: 2}
+    com.unity.localization.settings: {fileID: 11400000, guid: 5400ef75764c9449d95f134ce60d8497, type: 2}
